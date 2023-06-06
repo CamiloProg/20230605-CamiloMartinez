@@ -1,0 +1,29 @@
+ 7623  mkdir 20230605-CamiloMartinez
+ 7624  cd 20230605-CamiloMartinez
+ 7625  ls
+ 7626  git init
+ 7627  git remote add origin https://github.com/CamiloProg/20230605-CamiloMartinez.git
+ 7628  git branch -M main
+ 7629  touch comandos.txt main.js index.html
+ 7630  git add .
+ 7631  git commit -m "commit 01 de CamiloMartinez"
+ 7632  git push origin main
+ 7633  git branch -M main
+ 7634  git push origin main
+ 7635  git checkout -b feature
+ 7636  mkdir Hardware Software SeguridadInformatica
+ 7637  touch Hardware/resumen.txt Software/resumen.txt SeguridadInformatica/resumen.txt
+ 7638  git add .
+ 7639  git commit -m "commit 02 de CamiloMartinez"
+ 7640  git push origin feature
+ 7641  git checkout main
+ 7642  mv main.js resumenHardware.txt
+ 7643  mv index.html resumenSoftware.txt
+ 7644  ls
+ 7645  echo
+ 7646  echo resumenSoftware.txt
+ 7647  echo PhotoShop, Google Chrome, Safari >> resumenSoftware.txt
+ 7648  cat resumenSoftware.txt
+ 7649  echo MemoriaRam, MemoriaRom, MemoriaCache  >> resumenHardware.txt
+ 7650  echo resumenHardware.txt
+ 7651  cat resumenHardware.txt
